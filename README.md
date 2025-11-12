@@ -1,54 +1,74 @@
-# Amazon Sales Analysis Dashboard
+# 📊 Amazon Sales Analysis Dashboard
 
-## 🚀 Project Overview  
-This repository contains the Power BI project titled **“Amazon Sales Analysis”**, focused on analysing and visualising sales performance across Amazon Products and Amazon Prime content. The dashboards are designed to provide actionable insights for data-driven decision making in retail and media business scenarios.
+## 🚀 Project Overview
+This repository contains the Power BI project titled **“Amazon Sales Analysis”**, which analyses and visualises sales performance across **Amazon Products** and **Amazon Prime** content.  
+The dashboards are designed to provide **actionable insights** for data-driven decision-making in retail and media business scenarios.
 
-## 📊 Key Dashboards  
-### 1. Amazon Products Dashboard  
-- Tracks year-to-date (YTD) sales, quarterly (QTD) sales, number of products sold and number of reviews.  
-- Visuals include:  
-  - YTD Sales by Month (line chart)  
-  - YTD Sales by Week (column/bar chart)  
-  - Sales by Product Category (table/matrix)  
-  - Top 5 Products by YTD Sales (bar chart)  
-  - Top 5 Products by YTD Reviews (bar chart)  
+---
 
-### 2. Amazon Prime Dashboard  
-- Tracks performance of Prime content (movies), including total sales, number of titles,and  number of reviews.  
-- Visuals include:  
-  - Movie counts by release year  
-  - Total sales by movie type (e.g., R, PG-13, etc.)  
-  - Total sales by quality (Prime Video, Blu-ray, DVD, 4K, Multi-format)  
-  - Top 5 Movies by Sales  
-  - Top 5 Movies by Reviews  
+## 🎯 Objectives
+- Analyse Amazon product sales trends, categories, and customer engagement metrics.
+- Evaluate performance metrics for Amazon Prime content, including total sales, movie quality, and customer reviews.
+- Develop **interactive dashboards** using Power BI for visual insights.
+- Support **data-backed decisions** in product and media strategy optimisation.
 
-## 🎯 Business Objectives  
-- Provide a unified view of Amazon products and Prime content performance.  
-- Surface trends in sales, category-wise performance, review volume and content type.  
-- Enable stakeholders to monitor KPIs and make informed strategic decisions.
+---
 
-## 🧰 Tools & Technologies  
-- **Power BI Desktop** – for report building and visualization  
-- **Excel / XLSX** – raw data sources for products and Prime movies  
-- **DAX (Data Analysis Expressions)** – for calculations of YTD, QTD, % shares, rankings  
-- **Data Modelling** – connecting product and movie tables for interactive dashboards  
+## 🧩 Datasets Used
+| File Name | Description |
+|------------|-------------|
+| `Amazon_Product_Data.xlsx` | Contains product-level sales data, category-wise metrics, and review stats. |
+| `Amazon_Prime_Movies.xlsx` | Includes information on Amazon Prime movies, total sales, reviews, and quality. |
 
-## 📁 Repository Structure  
-Amazon-Sales-Analysis/
-├── README.md
-├── Amazon_Combined_Data.xlsx
-├── Amazon_Prime_Movies.xlsx
-└── screenshots/
-    ├── Amazon Product Dashboard.png
-    └── Amazon Prime Dashboard.png
+---
 
-## 🔍 Key Insights (Sample)  
-- In the Products dashboard, Men’s Shoes account for ~43% of YTD sales; cameras and men’s clothes follow.  
-- Sales spike observed around the September–October timeframe.  
-- In the Prime dashboard, Prime Video format contributes ~79% of total sales; top-performing titles include “God’s Country” and “The Insanity”.  
-- Review volume correlates strongly with best-selling products and movies.
+## 🧠 Key Insights
+### 🛒 **Amazon Products Dashboard**
+- Total YTD Sales: **$2.18M**  
+- QTD Sales: **$811.09K**  
+- Top-selling categories: **Men's Shoes, Cameras, and Men's Clothes**  
+- Top products by reviews include **SanDisk 16GB** and **SanDisk 1TB**.
 
-## 📥 Usage / How to Explore  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Shubh5046/Amazone-Sales-Analysis-.git
+### 🎬 **Amazon Prime Dashboard**
+- Total Sales: **$86.55K** across **4.99K Movies**  
+- Most sales from **Prime Video (78%)** quality category  
+- Top-performing movies: *God’s Country*, *The Insanity*, and *Haunted Trail*
+
+---
+
+## 🧰 Tools & Technologies
+- **Power BI** – Data visualization & dashboard design  
+- **Microsoft Excel** – Data cleaning and preprocessing  
+- **Data Sources** – Simulated Amazon Product and Prime Movie datasets  
+
+---
+
+## 📸 Dashboard Previews
+
+### 🛍️ Amazon Product Dashboard
+![Amazon Product Dashboard](https://github.com/Shubh5046/Amazone-Sales-Analysis-/blob/main/Amazon%20Product%20Dashbord.png)
+
+### 🎞️ Amazon Prime Dashboard
+![Amazon Prime Dashboard](https://github.com/Shubh5046/Amazone-Sales-Analysis-/blob/main/Amazon%20Prime%20Dashbord.png)
+
+---
+
+## 📈 Key Metrics Visualised
+- **YTD & QTD Sales Performance**
+- **Sales by Product Category**
+- **Top 5 Products & Reviews**
+- **Movie Sales by Quality and Type**
+- **Review Counts and Engagement**
+
+---
+
+## 🏁 Conclusion
+The project showcases how data visualisation can transform raw data into clear insights for strategic business decisions.  
+It demonstrates how **Power BI** can be used effectively to explore key trends, revenue performance, and content analytics.
+
+---
+
+## 👨‍💻 Author
+**Shubh Besra**  
+📧 *shubhbesra@gmail.com*  
+🔗 [GitHub Profile](https://github.com/Shubh5046)
